@@ -1,6 +1,5 @@
 /*
-Jodie Jackson
-3400 JAVA Programming
+Java Programming
 Creating a 10 X 10 and random generated Multiplication Table  
 */
 
@@ -42,7 +41,7 @@ public class Multiplication {
     }
     
     public static void randomMultiplicationTable() {
-        Random r = new Random(); // creates an object R that generates a random number 
+        Random r = new Random(); // creates an object "r" that generates a random number 
         int row = r.nextInt(10) + 1; // uses a random number between 1 - 10
         int column = r.nextInt(10) + 1; 
         customMultiplicationTable(row, column); //calls table using the rows and column parameters
